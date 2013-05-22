@@ -5,7 +5,7 @@ class HomesController extends AppController {
   
 	var $uses = array('User','PlaceType','Place','UserMailAlert','UserMobileAlert','Room','PlaceImage','PlaceVideo','PlaceRule','RoomImage','RatingByGuest','SendCard','RoomPayment','Page','Mail','Booking','Refund','AdminFund','UnavailableDate','HelpCategory','Help','Internship','Review','ScheduledPayment','ReviewResponse');
 	public $components = array('Auth','Cookie','Session','Request333Handler','Email','DATA','THmail','Map','Payment','Crypter');
-	public $helpers = array('Html', 'Form','Jquery222Engine','Session','Text','Time');
+	public $helpers = array('Html', 'Form','Jquery444Engine','Session','Text','Time');
 
 	function beforeFilter()
 	{
